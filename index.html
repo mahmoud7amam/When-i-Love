@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>تفضلين 💗</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="blobs"><span></span><span></span><span></span></div>
+<canvas id="c"></canvas>
+
+<main class="screen" id="lock">
+  <h1>تفضلين</h1>
+  <p class="sub" id="hint">اكتبي الرمز 💗</p>
+  <div class="dots" id="dots"><i></i><i></i><i></i><i></i></div>
+  <div class="pad" id="pad"></div>
+</main>
+
+<section class="screen" id="love">
+  <div class="msg" id="msg" aria-label="Slyver Love You"></div>
+  <svg viewBox="0 0 200 180" id="heart" aria-hidden="true">
+    <defs>
+      <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+        <stop offset="0" stop-color="#ff8fbd"/><stop offset=".5" stop-color="#ff3d8b"/><stop offset="1" stop-color="#c2185b"/>
+      </linearGradient>
+    </defs>
+    <g id="hg"></g>
+  </svg>
+  <div class="names"><div class="nm">قمر <b>♥</b> محمود</div><div class="dt">2026 / 10 / 23</div></div>
+  <button id="snd" class="snd" aria-label="الصوت">🔊</button>
+</section>
+<script src="script.js"></script>
+</body>
+</html>
